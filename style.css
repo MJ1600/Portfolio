@@ -642,3 +642,25 @@ button:hover span {
     left: 120%;
     transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
 }
+
+@media(max-width:1250px){
+    .blog-box{
+        width: 300px;
+    }
+}
+
+@media(max-width:1100px){
+    .blog-box{
+        width: 70%;
+    }
+}
+
+@media(max-width:550px){
+    .blog-box{
+        margin: 20px 10px;
+        width: 100%;
+    }
+    #blog{
+        padding: 20px;
+    }
+}
